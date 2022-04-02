@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+@font-face {
+    font-family: "far-from-homecoming";
+    src: url("Assets/police/Far-From-Homecoming-Updated.otf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Montserrat,sans-serif;
+}
+:root{
+    --primary-ad-color:#f1c530;
+    --primary-ad-black:#000000;
+    --primary-ad-white:#ffffff;
+}
+.conteneur{
+    width: 80%;
+    margin: 0 auto;
+}
+/* navigation */
+ul{
+    list-style-type: none;
+}
+nav{
+    background-color:var(--primary-ad-color);
+    padding: 16px 0;
+}
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .brand img{
+    padding-left: 20px;
+}
+nav .brand img:nth-child(2){
+    padding-bottom: 15px;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu ul li{
+    margin-left: 70px;
+    font-size: 20px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: var(--primary-ad-white);
+}
+/* corps:section1 ->super vilain */
+#super{
+    background-image: url("Assets/Illustration/img7.png");
+    background-position: center;
+    background-size: cover;
+
+    height: 500px;
+}
+#super .titre{
+    font-family: "far-from-homecoming";
+    font-size: 6em;
+    font-weight: 100;
+
+}
+#super .description{
+    font-size: 1.4em;
+}
+#super .box{
+    position: relative;
+    top: 35%;
+    padding-left: 11%;
+}
+#super div{
+    color: var(--primary-ad-white);
+}
+
+#card-section{
+    background-color: var(--primary-ad-color);
+    padding-top: 30px;
+}
+#card-section .cadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-section .cadre .card-hero{
+    border: 6px solid var(--primary-ad-black);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    height: 550px;
+    margin:20px;
+    box-shadow: 0 4px 8px var(--primary-ad-black);
+}
+#card-section .cadre .card-hero .card-image{
+    background-color: blue;
+    background-size: cover;
+    background-position:center;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+/* image pour chaque cadre */
+#card-section .cadre .card-hero .card-image1{
+    background-image: url("Assets/Illustration/img8.png");
+}
+#card-section .cadre .card-hero .card-image2{
+    background-image: url("Assets/Illustration/img9.png");
+}
+#card-section .cadre .card-hero .card-image3{
+    background-image: url("Assets/Illustration/img10.png");
+}
+#card-section .cadre .card-hero .card-image4{
+    background-image: url("Assets/Illustration/img11.png");
+}
+#card-section .cadre .card-hero .card-image5{
+    background-image: url("Assets/Illustration/img12.png");
+}
+#card-section .cadre .card-hero .card-image6{
+    background-image: url("Assets/Illustration/img13.png");
+}
+#card-section .cadre .card-hero .card-image7{
+    background-image: url("Assets/Illustration/img14.png");
+}
+#card-section .cadre .card-hero .card-image8{
+    background-image: url("Assets/Illustration/img15.png");
+}
+#card-section .cadre .card-hero .card-image9{
+    background-image: url("Assets/Illustration/img16.png");
+}
+#card-section .cadre .card-hero .card-image10{
+    background-image: url("Assets/Illustration/img17.png");
+}
+#card-section .cadre .card-hero .card-image11{
+    background-image: url("Assets/Illustration/img18.png");
+}
+
+
+/* desing card pour les contenues */
+#card-section .cadre .card-hero .card-content{
+    margin: 15px;
+    font-size: 15px;   
+}
+#card-section .cadre .card-hero .card-content p{
+    margin-bottom: 10px;
+    padding-bottom: 5px;   
+}
+#card-section .cadre .card-hero .card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#card-section .cadre .card-hero .card-content span{
+    font-weight: bold;
+}
+/* footer */
+.border-30{
+    border-radius: 30px;
+}
+.img-round{
+    border-radius: 50%;
+}
+footer{
+    background-color: #000000;
+}
+/* .padding-footer{
+    
+} */
+a{
+    text-decoration: none;
+}
+.bg-yellow{
+    background-color: var(--primary-ad-color);
+}

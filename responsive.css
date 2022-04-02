@@ -1,0 +1,277 @@
+@media only screen and (max-width: 768px ){
+
+    /* Accueil */
+    #navigation, #nav{
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(112, 106, 106, 0);
+    }
+    #spider{
+        position: relative;
+        padding-top: 10%;
+        height: 70vh;
+    }
+    #spider h1{
+        font-size: 22px;
+    }
+    #spider .txt-center{
+        text-align: center;
+    }
+    #spider .txt-center span{
+        font-size: 13px;
+    }
+    #spiderCinema button{
+        margin: 0% 0% 10% 25% !important;
+    }
+    #devienSpider img{
+        position: relative;
+        background-position: center;
+    }
+    #devienSpider .spider-info{
+        position: absolute;
+        left: 8%;
+        z-index: 10;
+        font-size: 11px;
+    }
+    #inscription{
+        font-size: 10px; 
+        text-align:center; 
+    }
+    #inscription h2{
+        font-size: 19px!important; 
+        margin-left: 12px;
+    }
+    #inscription .signup-content{
+        position: relative;
+    }
+    #inscription img{
+        width: 350px;
+        position: absolute;
+        z-index: 2;
+        top: 529.5%;
+    }
+    #inscription button{
+        font-size: 12px;
+        margin-bottom: 30%;
+    }
+    footer .line-bottom{
+        border-bottom: solid white 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 10px 0px 10px 25%;
+        width: 50%;
+    }
+    footer {
+        position: relative;
+    }
+    footer div a{
+       position: absolute;
+       top: 0%;
+       left: 0%;
+       z-index: 10;
+    }
+    footer div a:nth-child(2){
+        top: 6%;
+    }
+    footer div a:nth-child(3){
+        top: 12%;
+    }
+    footer div a:nth-child(4){
+        top: 18%;
+    }
+    footer div a:nth-child(5){
+        top:18%;
+    } 
+    footer div a:nth-child(6){
+        top:24%;
+    }
+    footer div select{
+        position: absolute;
+        top: 6%;
+        right: 0%;
+        z-index: 10;
+    }
+    footer div .marvel-logo{
+        margin-top: 40%;
+    }
+
+    /* Bonus */
+    .bonus-nav{
+        background-color: #B11313!important;   
+    }
+
+    .bonus-body{
+        padding-top: 78%!important;
+    }
+    .bonus-body h1{
+        font-size: 24px!important;
+    }
+    .bonus-body p{
+        padding-top: 2px!important;
+    }
+    .bonus-body .coming-soon{
+       display: none;
+    }
+    .bonus-body .m-text{
+        display:inline-block!important; 
+        font-size: 14px;
+    }
+    .bonus-marvel-logo{
+        width: 87px; 
+    }
+    .bonus-dot{
+        display: inline-block !important;
+        top:-7%;
+        left: 80%;
+    }
+    .dot{
+        font-size: 4rem;
+        color: white; 
+    }
+
+    /* A propos */
+    .aprops-nav{
+        background-color: #B11313!important;   
+    }
+    #toile h1{
+        font-size: 46px!important;
+    }
+    #toile p{
+        font-size: 14px!important;
+    }
+    #toile .text-section1{
+        margin-top: 10%;
+    }
+    #toile div img{
+        width: 250px;
+        margin-top: 40%;
+        margin-bottom: 10%; 
+    }
+    #petiteAntenne img{
+        width: 300px;
+        margin-left: 10%;
+    }
+    #petiteAntenne h1, p{
+        text-align: center;
+    }
+    #petiteAntenne p{
+        font-size: 14px;
+    }
+    #petiteAntenne form{
+        margin: 0% 0% 3% 3%;
+    }
+    #SaynaX{
+        text-align: center;
+    }
+    #SaynaX p{
+        font-size: 10px;
+    }
+    #SaynaX .propos-reseaux{
+        display: none;
+    }
+    #SaynaX .sayna-x-marvel{
+        padding-bottom: 0%!important;
+    }
+    #SaynaX .article{
+        margin-top: -20%!important;
+    }
+    #SaynaX .article ul{
+        display: inline-block; 
+    }
+    #SaynaX button{
+        font-size: 15px!important;
+        padding-left: 10%!important;
+    }
+
+    /* Adversaire */
+    #super{
+        height: 240px;
+    }
+    #super .box h1, #heros h1{
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-top: 8%;
+    }
+    #super .box p{
+        font-size: 12px;
+        margin-left: -30%;
+    }
+    .card-hero p{
+        font-size: 13px;
+    }
+    .card-hero .card-image{
+        height: 150px!important;
+    }
+
+    /* Hero  */
+    #heros{
+        height: 250px;
+    }
+    #heros p{
+        font-size: 12px!important;
+        margin-left: -16%;
+    }
+    #valeurs{
+        text-align: center;
+        padding-right: 40px!important;
+    }
+    #valeurs h1{
+        font-size: 24px!important;
+    }
+    #valeurs h5{
+        font-size: 16px!important;
+    }
+    #valeurs p{
+        font-size: 10px!important;
+        text-align: left;
+    }
+    #fondations{
+        height: 250px; 
+        padding-top: 15%!important;
+    }
+    #texte p{
+        font-size: 10px;
+        text-align: left;
+    }
+    #texte div .py-5:first-child{
+        padding-bottom: 0px !important; 
+    }
+    #texte .py-5:last-child{
+        padding-top: 0px !important; 
+    }
+    #seul #jamais_seul{
+        text-align: center;
+        padding-right: 20%!important;
+    }
+    #seul #jamais_seul img{
+        width: 320px;
+    }
+    #seul #jamais_seul .imageseule1{
+        position: absolute;
+        top: 40%;
+        left: -34%;
+    }
+    .padding-40{
+        margin-top: 35%;
+        font-size: 10px;
+    }
+    #mj{
+        padding-top: 70%;
+    }
+    #mj p, .padding-40 p{
+        font-size: 10px;
+        text-align: left;
+    }
+    .mj-stacy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 17%;
+    }
+    .mj-stacy img{
+        width: 100px; 
+    }
+    .section-spidey, .avengers{
+        display: none;
+    }
+}

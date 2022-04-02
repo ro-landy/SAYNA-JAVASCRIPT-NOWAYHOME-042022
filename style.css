@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;900&display=swap');
+@font-face {
+    font-family: "far-from-homecoming";
+    src: url("Assets/police/Far-From-Homecoming-Updated.otf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* css du accueil */
+body{
+    overflow-x: hidden;
+    font-family:Montserrat,sans-serif;
+}
+.fontfamilly{
+    font-family: "far-from-homecoming";
+}
+#navigation{
+    background-color:#B11313;
+}
+#navigation a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#spider{
+    background-image: url("Assets/Illustration/img1.png");
+    background-position:center;
+    background-size: cover;
+    height: 795px;
+    padding-left: 8.3%;
+}
+.border{
+    border-radius:10px;
+}
+.text-pink{
+    color: #B11313;
+}
+.text-top{
+    padding-top:8%;
+}
+.texte{
+    font-family: "far-from-homecoming";
+    padding-top: 24%;
+    font-size: 70px;
+    letter-spacing: 8px;
+}
+#spiderCinema{
+    background-color:#B11313;
+}
+#devienSpider{
+    height: 500px;
+    background-color: #114c92;
+}
+#devienSpider .section-spider{
+    margin-left: 60%;
+}
+.border-30{
+    border-radius: 30px;
+}
+.btn-envoyer{
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+}
+.bg-pink{
+    background-color: #B11313;
+}
+#inscription{
+    background-color: #B11313;
+}
+.btn-inscrire{
+    margin-left: 30%;
+}
+.img-round{
+    border-radius: 50%;
+}
+footer{
+    background-color: #000000;
+}
+a{
+    text-decoration: none;
+}
+/* css du bonus */
+.bonus-body{
+   background-image: url("Assets/Illustration/img35(2).png");
+   background-repeat: no-repeat;
+   height: 595px;
+}
+.section-bonus{
+    margin-left: 12.5%;
+    padding-top: 30%;
+}
+
+/* css du a propos */
+
+/* corps:section1 ->la toile */
+#toile{
+    background-color: #f1c530;
+}
+.text-section1{
+    padding-left: 12.5%;
+    padding-top: 20%;
+}
+
+/* corps:section2 ->la petite Antenne */
+#petiteAntenne{
+    background-color: #B11313;
+    padding-left: 12.5%;
+}
+
+.bg-marron{
+    background-color: #B11313;
+}
+
+textarea{
+    padding-left: 3%;    
+}
+.oppacity{
+    opacity:0.8;
+}
+.padding-42{
+    margin-top: 42%;
+}
+/* corps:section3 ->sayna x marvel */
+#SaynaX{
+    background-color: #114c92;
+    padding-left: 12.5%;
+}
+/* css heros */
+/* navigation */
+#nav{
+    background-color: #114c92;
+}
+#nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* corps: section1 -> heros */
+#heros{
+    background-image: url("Assets/Illustration/img19.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.section1-heros{
+    padding-left: 12.5%;
+    padding-top: 20%;
+}
+.font-size{
+    font-size: 70px;
+    font-family: "far-from-homecoming";
+}
+/* corps: section2 -> valeurs */
+#valeurs{
+    background-color: #114c92;
+    /* height: 90vh; */
+    padding-left: 12.5%;
+}
+/* corps: section3 ->fondations */
+#fondations{
+    background-image: url("Assets/Illustration/img20.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-left: 12.5%;
+    padding-top: 5%;
+}
+/* corps: section4 ->texte */
+#texte{
+    background-color: #114c92;
+    /* height:400px; */
+    padding-left: 12.5%;
+}
+/* corps:section5 ->jamais seul */
+#seul{
+    background-color: #114c92;
+    padding-left: 12.5%;
+    height:550px;
+}
+.imageseule1{
+    margin-left: 37% ;
+    margin-top: 28%;
+}
+.imageseule2{
+    margin-top: -85%;
+}
+.padding-40{
+    margin-top: 13%;
+}
+/* corps:section6 ->jim/Gwen */
+#mj{
+    background-color: #114c92;
+    padding-bottom: 8%;
+    padding-left: 12.5%;
+}
+
+.p-12{
+    padding-left: 12.5%;
+}
+
+.section-spidey{
+    background-image: url("Assets/Illustration/img33.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.univers{
+    background-color: #114c92;
+    float: right;
+    margin-right: 5%;
+    opacity: 0.8;
+    height: 572px;
+    width: 500px;
+}
+.font-size-39{
+    font-size: 32px;
+    padding-left: 30px;
+}
+.text-float{
+    padding-left:50%;
+}
+.bg-blue{
+    background-color: #114c92;
+}
