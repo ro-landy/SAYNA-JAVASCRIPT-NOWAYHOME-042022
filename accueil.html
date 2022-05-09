@@ -14,12 +14,12 @@
     <!--barre de navigation-->
     <head>
         <nav class="container-fluid d-flex justify-content-around py-3 px-4" id="navigation">
-            <div class="pt-4">
+            <div class="pt-3">
                 <img class="mx-1" src="Assets/Logo/logo1.png" alt="logo">
                 <img class="mx-1" src="Assets/Logo/logo2.png" alt="logo x">
-                <img class="mx-1" src="Assets/Logo/logo3.png" alt="logo Marvel" width=130>
+                <a href="bonus.html"><img class="mx-1 bonus-marvel-logo" src="Assets/Logo/logo3.png" alt="logo Marvel" width=170></a>
             </div>
-            <div class="menu pt-5 fw-bold">
+            <div class="menu pt-4 fs-5">
                 <ul class="list-inline">
                     <li class="list-inline-item mx-4"><a href="accueil.html"><span class="d-none d-md-inline">Accueil</span></a></li>
                     <li class="list-inline-item mx-4"><a href="adversaires.html"><span class="d-none d-md-inline">Adversaires</span></a></li>
@@ -33,13 +33,13 @@
     <main>
         <section id="spider">
             <h1 class="text-uppercase text-white texte">spiderman</h1>
-            <h3 class="text-white fw-bold py-2">L'araignée sympa du quartier!</h3>  
+            <h3 class="text-white py-2">L'araignée sympa du quartier!</h3>  
             <div class="d-flex bouton" style="padding-top:8%;">
-                <a href="heros.html"><button class="btn btn-light fw-bold text-pink border">voir les Heros</button></a>
-                <a href="adversaires.html"><button class="btn btn-default border border-white text-white mx-4 border">voir les Adversaires</button></a>
+                <a href="heros.html"><button  class="btn btn-light text-pink border inverse">voir les Heros</button></a>
+                <a href="adversaires.html"><button id="inversser" class="btn btn-default border border-white text-white mx-4 border ">voir les Adversaires</button></a>
             </div>
-            <h1 class="text-uppercase text-white text-top txt-center">les spidermans au cinéma</h1>
-            <p class="text-white txt-center text-nowrap"> <span> Spiderman a pu bénéficier de reboot qui ont permis d'adapter ses histoires<br> pour chaque génération!</span> </p>
+            <h1 class="text-uppercase text-white text-top txt-center fontfamilly">les spidermans au cinéma</h1>
+            <p class="text-white txt-center  text-nowrap"> <span> Spiderman a pu bénéficier de reboot qui ont permis d'adapter ses histoires<br> pour chaque génération!</span> </p>
         </section> 
         <!-- corps : section 2-> spiderman au Cinemab-->
         <section id="spiderCinema">
@@ -52,7 +52,7 @@
                     realisateur) et Sony.<br>
                     Cette premiere trilogie a connu un grand <br>succes aupres des fans et du grand public.<br>
                     L'episode 3 reste a ce jour un des films les<br> plus chers de l'histoire du cinema</p>
-                    <button class="btn btn-light text-pink border mx-5 mb-3">Voir ses adversaires</button>
+                    <button class="btn btn-light text-pink border mx-5 mb-3 inverse">Voir ses adversaires</button>
                 </div>
                 <div class="">
                     <img src="Assets/Illustration/img3.png" alt="">
@@ -62,7 +62,7 @@
                     realisateur) et Sony.<br>
                     Cette premiere trilogie a connu un grand <br>succes aupres des fans et du grand public.<br>
                     L'episode 3 reste a ce jour un des films les<br> plus chers de l'histoire du cinema</p>
-                    <button class="btn btn-light text-pink border mx-5 mb-3">Voir ses adversaires</button>
+                    <button class="btn btn-light text-pink border mx-5 mb-3 inverse">Voir ses adversaires</button>
                 </div>
                 <div class="">
                     <img src="Assets/Illustration/img4.png" alt="">
@@ -72,7 +72,7 @@
                     realisateur) et Sony.<br>
                     Cette premiere trilogie a connu un grand <br>succes aupres des fans et du grand public.<br>
                     L'episode 3 reste a ce jour un des films les<br> plus chers de l'histoire du cinema</p>
-                    <button class="btn btn-light text-pink border mx-5 mb-3">Voir ses adversaires</button>
+                    <button  class="btn btn-light text-pink border mx-5 mb-3 inverse">Voir ses adversaires</button>
                 </div>
             </div>
         </section>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="col-md-6 spider-info">
                     <div class="m-3">
-                        <h1 class="text-white fw-bold text-uppercase">deviens spiderman !</h1>
+                        <h1 class="text-white fw-bold text-uppercase fontfamilly">deviens spiderman !</h1>
                         <p class="text-white">Rempli le formulaire ci dessous afin de recevoir ton propre costume. </p>
                     </div>
                     <form class="w-75" action="Post">
@@ -103,7 +103,7 @@
             <div class="row mx-5 px-4">
                 <div class="col-md-5 signup-content">
                     <div class="m-3 text-white text-nowrap mb-5">
-                        <h2 class="text-uppercase fw-bold mt-5">inscrit toi a la newsletter !</h2>
+                        <h2 class="text-uppercase fw-bold mt-5 fontfamilly">inscrit toi a la newsletter !</h2>
                         <p>
                             L'univers de l'araignee justiciere te passionne? Reste au courant des dernieres <br> 
                             actualites grace a notre newsletter !
@@ -119,7 +119,7 @@
                                 de Sayna X Marvel. 
                             </p>
                         </div>
-                        <button class="btn btn-light border border-white text-pink pt-2 pb-2 fw-bold btn-inscrire text-nowrap">S'inscrire a la newsletter</button>
+                        <button class="btn btn-light border border-white text-pink pt-2 pb-2 btn-inscrire text-nowrap">S'inscrire a la newsletter</button>
                     </form>  
                 </div>
                 <div class="col-md-6">
@@ -130,7 +130,7 @@
     </main>
     <!-- footer -->
     <footer class="pt-5 pb-1 px-4">
-        <div class="d-flex flex-wrap justify-content-around mx-5">
+        <div class="d-flex flex-wrap justify-content-around mx-2">
             <a href="#" class="m-4 pt-2 text-white text-nowrap">Mobile app</a>
             <a href="#" class="m-4 pt-2 text-white text-nowrap">Politique de confidentialite</a>
             <a href="#" class="m-4 pt-2 text-white">Cookies</a>
@@ -146,17 +146,19 @@
             </select>
         </div>
         <div class="d-flex justify-content-center mt-5">
-            <img src="Assets/Logo/logof.png" alt="" class="bg-pink p-1 mx-2 img-round">
-            <img src="Assets/Logo/logoi.png" alt="" class="bg-pink p-1 mx-2 img-round">
-            <img src="Assets/Logo/logoy.png" alt="" class="bg-pink p-1 mx-2 img-round">
-            <img src="Assets/Logo/logot.png" alt="" class="bg-pink p-1 mx-2 img-round">
+            <img src="Assets/Logo/logof.png" width="30" alt="">
+            <img src="Assets/Logo/logot.png" width="30" alt="">
+            <img src="Assets/Logo/logoi.png" width="30" alt="">
+            <img src="Assets/Logo/logoy.png" width="30" alt="">
         </div>
         <div class="mt-5">
             <p class="text-center text-white" style="opacity: .5;">SaynaXMarvel, Inc. 2022. We love our users!</p>
             <div class="line-bottom"></div>
         </div>
     </footer>
+<script src="javascript.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script src="javascript.js"></script>
 </body>
 </html>
